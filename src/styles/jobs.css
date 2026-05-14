@@ -1,0 +1,82 @@
+/* =========================
+   JOBS PAGE
+========================= */
+
+.jobs-page {
+    background: #f4f6f9;
+    min-height: 100vh;
+
+    padding-bottom: 40px;
+}
+
+/* HERO */
+
+.jobs-hero {
+    text-align: center;
+
+    padding: 50px 20px;
+
+    background: linear-gradient(135deg,
+            #667eea,
+            #764ba2);
+
+    color: white;
+}
+
+.jobs-hero h1 {
+    font-size: 42px;
+
+    margin-bottom: 10px;
+}
+
+.jobs-hero p {
+    font-size: 18px;
+
+    margin-bottom: 25px;
+
+    opacity: 0.9;
+}
+
+.jobs-hero input {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 14px 18px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+/* JOB GRID */
+
+.jobs-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 20px;
+
+    padding: 30px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .jobs-hero h1 {
+        font-size: 30px;
+    }
+
+    .jobs-hero p {
+        font-size: 15px;
+    }
+
+    .jobs-grid {
+        padding: 15px;
+    }
+}

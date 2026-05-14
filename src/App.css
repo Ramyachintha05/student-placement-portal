@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+}
+
+/* BUTTONS */
+button {
+  transition: 0.3s;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  margin: auto;
+}

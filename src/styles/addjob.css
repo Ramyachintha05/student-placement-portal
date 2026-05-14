@@ -1,0 +1,74 @@
+.addjob-container {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background: #f4f6f8;
+}
+
+.addjob-box {
+    background: white;
+
+    width: 400px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.addjob-box h2 {
+    text-align: center;
+
+    color: #2563eb;
+}
+
+.addjob-box input,
+.addjob-box textarea {
+    padding: 12px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+.addjob-box textarea {
+    resize: none;
+
+    height: 90px;
+}
+
+.addjob-box button {
+    padding: 12px;
+
+    border: none;
+
+    background: #2563eb;
+
+    color: white;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.addjob-box button:hover {
+    background: #1d4ed8;
+}
